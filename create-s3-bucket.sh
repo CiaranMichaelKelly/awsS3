@@ -10,7 +10,7 @@ aws s3api create-bucket --bucket $bucketname --create-bucket-configuration Locat
 
 # Upload docs
 aws s3 cp . s3://$bucketname --recursive
-Write-S3Object -BucketName www.naughtydog.click -Folder . -KeyPrefix /
+Write-S3Object -BucketName naughtydog.click -Folder . -KeyPrefix /
 
 # Then we'll add website configuration
 aws s3api put-bucket-website --bucket $bucketname --website-configuration file://website.json

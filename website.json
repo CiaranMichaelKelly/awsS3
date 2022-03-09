@@ -1,6 +1,6 @@
 {
     "IndexDocument": {
-        "Suffix": "index.html"
+        "Suffix": "Home.html"
     },
     "ErrorDocument": {
         "Key": "error.html"

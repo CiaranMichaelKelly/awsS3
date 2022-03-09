@@ -9,7 +9,7 @@
                 "s3:GetObject"
             ],
             "Resource": [
-                "arn:aws:s3:::www.naughtydog.click/*"
+                "arn:aws:s3:::naughtydog.click/*"
             ]
         }
     ]
